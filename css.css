@@ -21,6 +21,9 @@
 
 }
 
+.navbar-toggler{
+    background-color: white;
+}
 .navbar .logo {
     font-size: 1.5rem;
     font-weight: bold;
@@ -130,7 +133,8 @@
         
     }
     .hero-content h1{
-        font-size: 22px;
+        font-size: 19px;
+        width: 129%;
     }
 
     .image-container img {
@@ -161,6 +165,42 @@
         width: 85px;
 
     }
+
+    .hero-content h2 {
+        font-size: 19px;
+        background-color: black;
+        color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 30px;
+        width: 152%;
+
+}
+
+.navbar-toggler{
+    color: white !important;
+}
+.navbar-toggler-icon{
+    color: white !important;
+}
+.hero-content h3 a {
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 30px;
+    display: block;
+    width: 169%;
+}
+
+.hero-content p {
+    font-size: 11px;
+    background-color: black;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 30px;
+    margin-bottom: 1rem;
+    width: 160%;
+}
 
 }
 
